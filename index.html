@@ -11,19 +11,16 @@
     <header>
         <h1>Pagina de estudiantes</h1>
         <nav>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="#informacion">Informacion</a>
+            <a href="#recursos">Recursos</a>
+            <a href="#diapositivas">Diapositivas</a>
+            <a href="#videos">Videos</a>
+            <a href="#audios">Audios</a>
         </nav>
     </header>
     <main>
         <section>
-            <article>
+            <article id="informacion">
                 <h2>Informacion de estudiantes</h2>
                 <p>A continuacion se muestra una tabla con informacion sobre algunos estudiantes:</p>
                 <table>
@@ -55,7 +52,7 @@
                 </table>
             </article>
 
-            <article>
+            <article id="recursos">
                 <h2>Recursos adicionales</h2>
                 <p>
                     Aqui hay algunos recursos adicionales para los estudiantes:
@@ -66,28 +63,54 @@
                     Iste suscipit ad labore magnam aut minima quidem, atque nihil totam accusamus quibusdam beatae commodi recusandae explicabo sapiente odio, neque repellendus, quod eligendi et iusto maiores saepe repudiandae. Dolorem, quis.
                     Cum voluptatem quidem id consequatur dicta in! Tempore, aperiam illo aut voluptatibus in mollitia id esse culpa commodi, veniam suscipit odit. Quas provident eos vitae possimus beatae libero pariatur illo?
                 </p>
-                
+                <div class="enlaces-recursos">
+                    <a href="https://github.com/LuisLaiton/Kuepa-MX.git" target="_blank">
+                        <img src="imagenes/GitHub-Mark.png" alt="Logo GitHub">
+                    </a>
+                    <a href="https://lms.kuepa.edu.co/login" target="_blank">
+                        <img src="imagenes/1589311920034.jpeg" alt="Logo kuepa">
+                    </a>
+                </div>
             </article>
 
-            <article>
+            <article id="diapositivas">
                 <h2>Presentacion de diapositivas</h2>
                 <p>A continuacion se muestra una presentacion de diapositivas</p>
+                <iframe src="Diapositivas/2-5.pdf"></iframe>
             </article>
 
-            <article>
+            <article id="videos">
                 <h2>Videos</h2>
                 <p>Aqui hay un video</p>
+                <video controls poster="imagenes/paisaje.jpeg" width="800" height="450">
+                    <source src="videos/video-ejemplo.mp4">
+                    <source src="videos/video-ejemplo.webm">
+                </video>
             </article>
 
-            <article>
+            <article id="audios">
                 <h2>Audios</h2>
                 <p>Aqui hay un audio</p>
+                <audio controls>
+                    <source src="audios/audio-fondo.aac">
+                    <source src="audios/audio-fondo.mp3">
+                    <source src="audios/audio-fondo.ogg">
+                </audio>
             </article>
         </section>
     </main>
     <footer>
-        <h2>Lorem, ipsum.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, dolor? Quasi, reprehenderit error? Reprehenderit sequi architecto dignissimos cupiditate. Est, magnam! Mollitia deserunt assumenda eum eaque hic ea delectus voluptatum officiis!</p>
+        <div class="texto-fotos">
+            <h2>Imagenes de estudiantes</h2>
+            <p>A continuacion se muestran algunos estudiantes</p>
+            <br><br>
+            <p>&copy 2023</p>
+        </div>
+        <div class="fotos">
+            <img class="estudiantes" src="imagenes/Estudiante1.jpg" alt="Estudiante1">
+            <img class="estudiantes" src="imagenes/Estudiante2.jpg" alt="Estudiante2">
+            <img class="estudiantes" src="imagenes/Estudiante3.jpg" alt="Estudiante3">
+        </div>
     </footer>
 </body>
 </html>

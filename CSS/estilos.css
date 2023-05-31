@@ -13,4 +13,92 @@ main {
 h1 {
     color: #F39C12;
     text-align: center;
+    padding: 30px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav > a {
+    color:#094CB0;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav > a:hover {
+    color: #F39C12;
+    border: 1px solid #F39C12;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer {
+    padding: 20px 15%;
+    background-color: #c6c5c5;
+}
+
+.texto-fotos > h2 {
+    color: black;
+}
+
+.texto-fotos {
+    display: inline-block;
+}
+
+.fotos {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+}
+
+.estudiantes {
+    height: 100px;
+    max-width: 100%;
+}
+
+article {
+    margin: 20px auto;
+}
+
+h2 {
+    color: #fff;
+}
+
+p {
+    margin: 10px;
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    background-color: #094cb05e;
+    text-align: center;
+}
+
+th, td {
+    border-bottom: 3px solid #333;
+    padding: 8px;
+}
+
+.enlaces-recursos {
+    text-align: right;
+}
+
+.enlaces-recursos > a > img {
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#diapositivas > iframe {
+    width: 100%;
+    height: 550px;
+}
+
+audio {
+    background-color: #F39C12;
+    border-radius: 10px;
 }
