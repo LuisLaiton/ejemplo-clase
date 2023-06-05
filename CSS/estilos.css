@@ -125,3 +125,8 @@ img:hover {
     height: 100%;
     border: 5px dotted #094CB0;
 }
+
+.icono-lista {
+    list-style: none;
+    list-style-image: url('../imagenes/corazon.png');
+}
